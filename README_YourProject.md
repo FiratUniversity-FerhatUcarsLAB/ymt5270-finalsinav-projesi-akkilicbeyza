@@ -10,10 +10,10 @@
 
 ## Veri Seti
 ### Veri Seti Bilgileri
-- **Veri Seti Adı**: 
-- **Kaynak**: *(URL veya referans)*
-- **Lisans**: *(Eğer belirtilmişse)*
-- **Veri Seti Boyutu**: *(örn. 500 satır, 10 sütun)*
+- **Veri Seti Adı**: California Housing Dataset
+- **Kaynak**: [Veri Seti Bağlantısı](https://scikit-learn.org/stable/datasets/real_world.html#california-housing-dataset)
+- **Lisans**: Public Domain (ABD hükümeti tarafından sağlanmıştır, açık ve ücretsiz kullanıma uygundur.)
+- **Veri Seti Boyutu**: 20.640 satır, 9 sütun
 
 ### Veri Seti Tanımı
 > *Veri setinin içeriğini detaylı olarak açıklayınız. Hangi öznitelikleri içerdiği, verilerin nasıl toplandığı, olası sınırlılıkları gibi bilgileri buraya yazınız.*

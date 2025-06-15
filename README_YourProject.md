@@ -59,7 +59,13 @@
 
 
 ### Görselleştirmeler
-> *Her görselleştirme için kısa bir açıklama yazınız. Görselleri bu repoya yükleyip, markdown içinde referans verebilirsiniz.*
+> *Aşağıda veri setindeki özniteliklerin dağılımlarını gösteren histogramlar yer almaktadır. Örneğin, MedInc verisinin sağa çarpık bir dağılım gösterdiği görülmektedir.*
+>
+> ![Histogramlar](pictures/histograms.png)
+>
+> *Ayrıca, MedInc (gelir) ile MedHouseVal (konut değeri) arasında pozitif yönlü bir ilişki bulunmaktadır. Bu da yüksek gelirli bölgelerde konut değerlerinin daha yüksek olduğunu göstermektedir.*
+>
+> ![Dağılım Grafiği](pictures/scatter_plot.png)
 
 ### Öznitelik İlişkileri
 > *Öznitelikler arasındaki ilişkileri analiz ediniz. Korelasyon matrisi, scatter plot matrisi gibi görsellerle destekleyiniz.*

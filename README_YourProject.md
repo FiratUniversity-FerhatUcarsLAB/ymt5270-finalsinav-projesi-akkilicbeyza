@@ -74,10 +74,18 @@
 
 ## Makine Öğrenmesi Uygulaması
 ### Kullanılan Yöntem
-> *California Housing veri seti sürekli (sayısal) bir hedef değişken olan MedHouseVal (bölgedeki medyan konut değeri) içerdiğinden, bu proje bir regresyon problemi olarak ele alınmıştır. Konut fiyatlarını etkileyen faktörlerin analiz edilmesi ve bu faktörler aracılığıyla fiyat tahmini yapılması amaçlanmıştır. Regresyon analizi, konut değer tahmini gibi sürekli değerli sonuçlar üretmek için uygun bir yaklaşımdır.*
+> *Bu projede, H2O.ai platformunun sağladığı AutoML (Automated Machine Learning) özelliği kullanılarak regresyon modelleri eğitilmiştir. AutoML, farklı makine öğrenmesi algoritmalarını otomatik olarak deneyerek en iyi performansı gösteren modeli belirler. Eğitim işlemi sırasında kullanılan bazı önemli ayarlar ve parametreler aşağıda belirtilmiştir:*
 
 ### Modeller ve Parametreler
-> *Denediğiniz modelleri ve kullandığınız parametreleri açıklayınız. Orange'da yapılandırdığınız widget ayarlarını ekran görüntüleri ile destekleyebilirsiniz.*
+> - *Eğitim Veri Seti (training_frame): california_housing.hex*
+> - Hedef Değişken (response_column): MedHouseVal (bölgedeki medyan konut değeri)
+> - Doğrulama Veri Seti (validation_frame): california_housing.hex
+> - Blending Frame: california_housing.hex (Stacked Ensemble algoritması için kullanıldı)
+> - Leaderboard Frame: california_housing.hex (modellerin karşılaştırılması için kullanıldı)
+> - Proje Adı (project_name): california_housing_ml
+> - Dağılım (distribution): AUTO (H2O otomatik olarak uygun dağılımı seçmiştir)*
+>
+> *AutoML süreci sonucunda GBM (Gradient Boosting Machine), Random Forest, GLM (Generalized Linear Model), XGBoost ve Stacked Ensemble gibi farklı algoritmalar değerlendirilmiştir. En yüksek performansı sağlayan model, StackedEnsemble_AllModels_AutoML olarak seçilmiştir.*
 
 ### Model Değerlendirmesi
 > *Uyguladığınız modelin performansını değerlendiriniz. Kullandığınız değerlendirme metriklerini açıklayınız.*

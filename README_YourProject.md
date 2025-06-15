@@ -23,11 +23,20 @@
 > *Sınırlılıklar: Veriler 1990 yılına ait olduğundan, günümüz koşullarını tam olarak yansıtmayabilir. Ayrıca coğrafi konum koordinatları sadece California'ya aittir.*
 
 ### Öznitelik Açıklamaları
-| Öznitelik Adı | Veri Tipi | Açıklama | Örnek Değer |
-|---------------|-----------|----------|-------------|
-| Örnek Öznitelik 1 | Sayısal | İlgili açıklama | 42.5 |
-| Örnek Öznitelik 2 | Kategorik | İlgili açıklama | "Evet" |
-| ... | ... | ... | ... |
+| Öznitelik Adı        | Veri Tipi | Açıklama                                                                 |
+|----------------------|-----------|--------------------------------------------------------------------------|
+| `MedInc`             | Sayısal   | Hane halkı başına ortalama gelir (10,000$ cinsinden)                    |
+| `HouseAge`           | Sayısal   | Konutların ortalama yaşı (yıl)                                          |
+| `AveRooms`           | Sayısal   | Ortalama toplam oda sayısı                                             |
+| `AveBedrms`          | Sayısal   | Ortalama yatak odası sayısı                                            |
+| `Population`         | Sayısal   | Bölgedeki toplam nüfus                                                 |
+| `AveOccup`           | Sayısal   | Hane başına ortalama kişi sayısı                                       |
+| `Latitude`           | Sayısal   | Enlem (coğrafi koordinat)                                              |
+| `Longitude`          | Sayısal   | Boylam (coğrafi koordinat)                                             |
+| `MedHouseVal`        | Sayısal   | Hedef değişken: Bölgedeki medyan konut değeri (100,000$ cinsinden)     |
+
+✅ Bu veri setinde tüm değişkenler sayısaldır ve hedef değişken: MedHouseVal’dir.
+
 
 ## Keşifsel Veri Analizi (Explanatory Data Analysis - EDA)
 ### Temel İstatistikler

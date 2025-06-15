@@ -40,7 +40,10 @@
 
 ## Keşifsel Veri Analizi (Explanatory Data Analysis - EDA)
 ### Temel İstatistikler
-> *Veri setine ait temel istatistikleri (ortalama, medyan, standart sapma, vb.) buraya ekleyiniz. Orange'dan alınan ekran görüntüleri ile destekleyebilirsiniz.*
+> *Aşağıdaki tablo, veri setinde yer alan özniteliklere ilişkin temel istatistikleri (ortalama, medyan, minimum, maksimum, standart sapma vb.) göstermektedir. Bu bilgiler, veri setinin dağılımı hakkında genel bir fikir verir. Örneğin, ortalama gelir (MedInc) 3.87 birim iken, konutların ortalama yaşı (HouseAge) 28.64 yıldır. Medyan konut değeri (MedHouseVal) ise yaklaşık 2.07 birim civarındadır (100,000$ cinsinden). Bu değerler modelleme için hedef değişkenin yeterli varyansa sahip olduğunu göstermektedir.*
+> 
+>![Temel İstatistikler](pictures/temel_istatistikler.png)
+
 
 ### Veri Ön İşleme
 > *Veri setinize uyguladığınız ön işleme adımlarını detaylandırınız:*

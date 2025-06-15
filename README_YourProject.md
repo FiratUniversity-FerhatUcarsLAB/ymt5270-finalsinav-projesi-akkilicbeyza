@@ -1,9 +1,9 @@
 # YMT5270 Final Sınav Projesi: H2O ile Veri Analizi ve Makine Öğrenmesi
 
 ## Öğrenci Bilgileri
-- **Ad Soyad**: 
-- **Öğrenci Numarası**: 
-- **E-posta**: 
+- **Ad Soyad**: Nebahat Beyza Akkılıç
+- **Öğrenci Numarası**: 241137102
+- **E-posta**: akkilicbeyza@gmail.com
 
 ## Proje Özeti
 > *Bu bölümde projenizin genel bir özetini yazınız. Hangi veri setini neden seçtiğinizi, hangi analiz yöntemlerini uyguladığınızı ve genel sonuçlarınızı kısaca açıklayınız (150-250 kelime).*

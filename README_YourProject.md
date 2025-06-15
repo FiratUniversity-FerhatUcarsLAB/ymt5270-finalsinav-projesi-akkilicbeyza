@@ -47,11 +47,16 @@
 
 ### Veri Ön İşleme
 > *Veri setinize uyguladığınız ön işleme adımlarını detaylandırınız:*
-> - *Eksik verilerin nasıl işlendiği*
-> - *Aykırı değerlerin tespiti ve işlenmesi*
-> - *Veri normalizasyonu/standardizasyonu*
-> - *Kategorik verilerin kodlanması*
-> - *Diğer ön işleme adımları*
+> - *Veri setinde eksik değer bulunmamaktadır. Bu durum, model eğitimi öncesi veri temizliği açısından avantaj sağlar.*
+> 
+> ![Eksik Değerler](pictures/eksik_veri.png)
+> - *Aykırı değer analizi sonucu bazı değişkenlerde (örneğin AveRooms) uç değerler gözlemlenmiştir. Ancak, bu değerler veri setinin doğası gereği oluşmuş olabilir, bu nedenle dışlanmamıştır.*
+>
+> ![Aykırı Değerler](pictures/aykırı_deger.png)
+> - *Tüm sayısal öznitelikler StandardScaler kullanılarak ölçeklendirilmiştir. Bu adım, özellikle regresyon algoritmalarının daha etkili çalışmasını sağlamak için uygulanmıştır.*
+>
+> ![Standardizasyon](pictures/standardizasyon.png)
+
 
 ### Görselleştirmeler
 > *Her görselleştirme için kısa bir açıklama yazınız. Görselleri bu repoya yükleyip, markdown içinde referans verebilirsiniz.*

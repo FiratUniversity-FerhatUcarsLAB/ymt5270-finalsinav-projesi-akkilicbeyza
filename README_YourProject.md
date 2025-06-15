@@ -68,7 +68,9 @@
 > ![Dağılım Grafiği](pictures/scatter_plot.png)
 
 ### Öznitelik İlişkileri
-> *Öznitelikler arasındaki ilişkileri analiz ediniz. Korelasyon matrisi, scatter plot matrisi gibi görsellerle destekleyiniz.*
+> *Aşağıdaki korelasyon matrisi, öznitelikler arasındaki ilişkileri göstermektedir. MedInc ile MedHouseVal arasında 0.69 gibi yüksek pozitif bir korelasyon bulunmaktadır. Bu, gelirin konut değeri üzerinde önemli bir etkisi olabileceğini gösterir. Benzer şekilde AveRooms ve HouseAge gibi değişkenlerin de konut değerleri ile belirli ilişkileri mevcuttur.*
+>
+> ![Korelasyon Matrisi](pictures/correlation_matrix.png)
 
 ## Makine Öğrenmesi Uygulaması
 ### Kullanılan Yöntem

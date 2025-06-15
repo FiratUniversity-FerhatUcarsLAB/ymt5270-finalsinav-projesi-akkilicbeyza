@@ -16,7 +16,11 @@
 - **Veri Seti Boyutu**: 20.640 satır, 9 sütun
 
 ### Veri Seti Tanımı
-> *Veri setinin içeriğini detaylı olarak açıklayınız. Hangi öznitelikleri içerdiği, verilerin nasıl toplandığı, olası sınırlılıkları gibi bilgileri buraya yazınız.*
+> *California Housing veri seti, 1990 ABD Nüfus Sayımı'na dayalı olarak California eyaletindeki konut bölgelerinden toplanmış verilerdir. Her satır, belirli bir bölgedeki konut özelliklerini ve hedef değişken olarak medyan konut değerini (median_house_value) temsil eder. Bu veri seti, konut fiyatlarını tahmin etmeye yönelik regresyon problemleri için kullanılır.*
+>
+> *Veri, aşağıdaki bilgileri içermektedir: bölgedeki ortalama gelir, ortalama yaş, konut yoğunluğu, nüfus, ev başına oda sayısı gibi demografik ve fiziksel değişkenler. Veriler, birden fazla özniteliğe sahiptir ve öznitelikler arasında yüksek korelasyonlar olabilir.*
+>
+> *Sınırlılıklar: Veriler 1990 yılına ait olduğundan, günümüz koşullarını tam olarak yansıtmayabilir. Ayrıca coğrafi konum koordinatları sadece California'ya aittir.*
 
 ### Öznitelik Açıklamaları
 | Öznitelik Adı | Veri Tipi | Açıklama | Örnek Değer |

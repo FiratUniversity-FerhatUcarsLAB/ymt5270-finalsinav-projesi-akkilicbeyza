@@ -74,7 +74,7 @@
 
 ## Makine Öğrenmesi Uygulaması
 ### Kullanılan Yöntem
-> *Veri setinize uyguladığınız makine öğrenmesi yöntemini (sınıflandırma, regresyon veya kümeleme) belirtiniz ve neden bu yöntemi seçtiğinizi açıklayınız.*
+> *California Housing veri seti sürekli (sayısal) bir hedef değişken olan MedHouseVal (bölgedeki medyan konut değeri) içerdiğinden, bu proje bir regresyon problemi olarak ele alınmıştır. Konut fiyatlarını etkileyen faktörlerin analiz edilmesi ve bu faktörler aracılığıyla fiyat tahmini yapılması amaçlanmıştır. Regresyon analizi, konut değer tahmini gibi sürekli değerli sonuçlar üretmek için uygun bir yaklaşımdır.*
 
 ### Modeller ve Parametreler
 > *Denediğiniz modelleri ve kullandığınız parametreleri açıklayınız. Orange'da yapılandırdığınız widget ayarlarını ekran görüntüleri ile destekleyebilirsiniz.*

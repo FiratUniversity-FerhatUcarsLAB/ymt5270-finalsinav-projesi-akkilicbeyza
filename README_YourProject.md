@@ -85,7 +85,9 @@
 > - Proje Adı (project_name): california_housing_ml
 > - Dağılım (distribution): AUTO (H2O otomatik olarak uygun dağılımı seçmiştir)*
 >
-> *AutoML süreci sonucunda GBM (Gradient Boosting Machine), Random Forest, GLM (Generalized Linear Model), XGBoost ve Stacked Ensemble gibi farklı algoritmalar değerlendirilmiştir. En yüksek performansı sağlayan model, StackedEnsemble_AllModels_AutoML olarak seçilmiştir.*
+> ![AutoML Ayarları](pictures/set.png)
+> *AutoML süreci sonucunda GBM (Gradient Boosting Machine), Random Forest, GLM (Generalized Linear Model), XGBoost ve Stacked Ensemble gibi farklı algoritmalar değerlendirilmiştir. En yüksek performansı sağlayan model, StackedEnsemble_AllModels_5_AutoML_1_20250616_04054 olarak seçilmiştir.*
+> ![Model Sonuçları](pictures/result.png)
 
 ### Model Değerlendirmesi
 > *Uyguladığınız modelin performansını değerlendiriniz. Kullandığınız değerlendirme metriklerini açıklayınız.*
